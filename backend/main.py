@@ -13,7 +13,7 @@ app.add_middleware(
 
 @app.get("/")
 def root():
-    return {"message": "Hello from Fa00000stAPI!"}
+    return {"message": "Hello from FastAPI!"}
 
 @app.get("/hello/{name}")
 def hello(name: str):
